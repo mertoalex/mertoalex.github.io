@@ -1,0 +1,20 @@
+.round {
+	border-radius: 25px;
+}
+
+body {
+	background-color: #424243;
+}
+
+#bagis {
+	background-color: #525260;
+	text-align: center;
+	margin: 50px
+			450px
+			50px
+			450px;
+}
+
+#bagis-yazi {
+	color: #ffffff;
+}
