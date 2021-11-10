@@ -1,1 +1,1 @@
-echo $(printf "title   Arch Linux\nlinux   /vmlinuz-linux\ninitrd  /initramfs-linux.img\noptions cryptdevice=UUID=$(cat /dev/vg1/cryptroot):root\nroot=/dev/mapper/root rootflags=subvol=@ rw") > /boot/loader/entries/arch.conf 
+echo $(printf "title   Arch Linux\nlinux   /vmlinuz-linux\ninitrd  /initramfs-linux.img\noptions cryptdevice=UUID=6386d6d3-9540-4605-8f31-73b26f74bae6:root\nroot=/dev/mapper/root rootflags=subvol=@ rw") > /boot/loader/entries/arch.conf 
