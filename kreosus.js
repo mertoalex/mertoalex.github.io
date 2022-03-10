@@ -5,7 +5,6 @@ js = d.createElement(s);
 js.id = id;
 js.src = 'https://kreosus.com/public/iframe/js/iframe-api.js';
 kjs.parentNode.insertBefore(js, kjs);
-}(document, 'script', 'kreosus-iframe-api'));
-
 document.getElementById('kreosus-iframe').style.borderRadius = "25px" // w3c
 document.getElementById('kreosus-iframe').style.MozBorderRadius = "25px" // mozilla
+}(document, 'script', 'kreosus-iframe-api'));
