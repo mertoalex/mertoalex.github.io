@@ -1,7 +1,6 @@
 (function(d, s, id){
 				var js, kjs = d.getElementsByTagName(s)[0]
-				if (d.getElementById(id)) 
-          return
+				if (d.getElementById(id)) return
 				js = d.createElement(s)
 				js.id = id
 				js.src = 'https://kreosus.com/public/iframe/js/iframe-api.js'
